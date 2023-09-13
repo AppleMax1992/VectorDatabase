@@ -1,4 +1,4 @@
-# sinofaith
+# VectorDatabase
 1. 运行环境python3.7.9 nootbook pip install weaviate-client markdown bs4
 2. 两个md file在dataset中作为输入数据, 运行weaviate.ipynb即可
 3. 从md file转html, 从html中parse h1 tag中的内容作为title, 第二行中p tag中的内容作为author, 其中内容通过正则去掉特殊字符. 其余的所有字段通过bs4抽取文字内容.
